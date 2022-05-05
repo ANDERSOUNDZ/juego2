@@ -30,6 +30,8 @@ public class App {
             int jumps = minJumps(arr, i, h);
             if (jumps != Integer.MAX_VALUE && jumps + 1 < min)
                 min = jumps + 1;
+
+        
         }
         return min;
     }
