@@ -45,8 +45,4 @@ public class App {
         
         System.out.println("The minimum jump to avoid all obstacles is: " + minimumJump);
     }
-
-    public String getGreeting() {
-        return "Hello World!";
-    }
 }
